@@ -1,1 +1,127 @@
-PLACEHOLDER_TO_BE_REPLACED
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slimique - Patch Snellente</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --terracotta: #d4a373; --peach: #f5e6d3; --brown: #5c4033; --dark: #3d2b1f; --cream: #faf6f1; --accent: #c17a5a; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--dark); line-height: 1.6; }
+h1, h2, h3 { font-family: 'Playfair Display', serif; }
+header { background: linear-gradient(135deg, #e8c4a8 0%, #d4a373 100%); padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 20px rgba(0,0,0,0.1); }
+.logo { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--brown); font-weight: 700; }
+.logo span { font-size: 0.7rem; display: block; letter-spacing: 3px; color: var(--dark); }
+nav a { margin-left: 2rem; text-decoration: none; color: var(--brown); font-weight: 500; font-size: 0.95rem; }
+.hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; min-height: 90vh; padding: 4rem 8%; background: linear-gradient(135deg, #faf6f1 0%, #f0e0d0 100%); gap: 3rem; }
+.hero-text h1 { font-size: 4rem; color: var(--brown); line-height: 1.1; margin-bottom: 0.5rem; }
+.hero-text .subtitle { font-size: 1.4rem; color: var(--accent); letter-spacing: 4px; margin-bottom: 1.5rem; font-weight: 500; }
+.hero-text p { font-size: 1.15rem; margin-bottom: 2rem; max-width: 500px; }
+.btn { display: inline-block; background: var(--brown); color: white; padding: 1rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: 600; transition: all 0.3s; }
+.btn:hover { background: var(--accent); transform: translateY(-2px); }
+.hero-img { text-align: center; }
+.hero-img img { max-width: 100%; height: auto; max-height: 70vh; border-radius: 20px; box-shadow: 0 30px 60px rgba(92,64,51,0.2); }
+section { padding: 5rem 8%; }
+.section-title { text-align: center; font-size: 2.8rem; color: var(--brown); margin-bottom: 1rem; }
+.section-subtitle { text-align: center; color: var(--accent); margin-bottom: 3rem; font-size: 1.1rem; }
+.benefits { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 2rem; }
+.benefit-card { background: white; padding: 2rem; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #f0e0d0; }
+.benefit-card h3 { color: var(--brown); margin-bottom: 1rem; font-size: 1.5rem; }
+.ba-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem; }
+.ba-pair { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.08); }
+.ba-images { display: grid; grid-template-columns: 1fr 1fr; }
+.ba-images img { width: 100%; height: 420px; object-fit: cover; }
+.ba-label { position: absolute; background: var(--brown); color: white; padding: 0.4rem 1rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 1px; }
+.ba-info { padding: 1.5rem; text-align: center; }
+.ba-info h3 { color: var(--brown); margin-bottom: 0.5rem; }
+footer { background: var(--dark); color: #f5e6d3; text-align: center; padding: 3rem 2rem; }
+footer .logo { color: #f5e6d3; }
+@media (max-width: 900px) { .hero { grid-template-columns: 1fr; text-align: center; } .hero-text h1 { font-size: 2.8rem; } .benefits, .ba-grid { grid-template-columns: 1fr; } nav { display: none; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Slimique<span>PATCH SNELLENTE</span></div>
+  <nav>
+    <a href="#benefici">Benefici</a>
+    <a href="#risultati">Risultati</a>
+    <a href="#come-funziona">Come funziona</a>
+  </nav>
+</header>
+<section class="hero">
+  <div class="hero-text">
+    <div class="subtitle">PATCH SNELLENTE</div>
+    <h1>Slimique</h1>
+    <p>Il patch innovativo da applicare sulla pancia. Stimolante, drenante e elasticizzante. La caffeina contenuta aiuta a stimolare la lipolisi per una silhouette più snella.</p>
+    <a href="#risultati" class="btn">Scopri i risultati</a>
+  </div>
+  <div class="hero-img">
+    <img src="data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=" alt="Slimique Patch Snellente">
+  </div>
+</section>
+<section id="benefici">
+  <h2 class="section-title">I benefici di Slimique</h2>
+  <p class="section-subtitle">Tre azioni in un unico patch</p>
+  <div class="benefits">
+    <div class="benefit-card">
+      <h3>Stimolante</h3>
+      <p>Aiuta a stimolare il metabolismo locale grazie alla caffeina.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>Drenante</h3>
+      <p>Favorisce il drenaggio dei liquidi in eccesso per una sensazione di leggerezza.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>Elasticizzante</h3>
+      <p>Contribuisce a migliorare l'elasticità della pelle.</p>
+    </div>
+  </div>
+</section>
+<section id="risultati" style="background: white;">
+  <h2 class="section-title">Risultati visibili</h2>
+  <p class="section-subtitle">Donne che hanno perso molti chili grazie a Slimique</p>
+  <div class="ba-grid">
+    <div class="ba-pair">
+      <div class="ba-images">
+        <div style="position:relative;">
+          <div class="ba-label">PRIMA</div>
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=" alt="Prima">
+        </div>
+        <div style="position:relative;">
+          <div class="ba-label">DOPO</div>
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=" alt="Dopo">
+        </div>
+      </div>
+      <div class="ba-info">
+        <h3>Giulia, 28 anni</h3>
+        <p>-18 kg in 3 mesi</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="come-funziona">
+  <h2 class="section-title">Come si usa</h2>
+  <p class="section-subtitle">Semplice e pratico</p>
+  <div class="benefits">
+    <div class="benefit-card">
+      <h3>1. Applica</h3>
+      <p>Applica il patch sulla zona della pancia dopo aver pulito e asciugato la pelle.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>2. Indossa</h3>
+      <p>Lascia agire per le ore indicate. Il patch è discreto e si può portare sotto i vestiti.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>3. Risultati</h3>
+      <p>Usa costantemente per vedere i benefici stimolanti, drenanti ed elasticizzanti.</p>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="logo">Slimique</div>
+  <p style="margin-top:1rem;">Beautive · Patch Snellente</p>
+  <p style="margin-top:0.5rem; font-size:0.85rem; opacity:0.7;">I risultati possono variare. Questo prodotto è un cosmetico e non sostituisce una dieta equilibrata e uno stile di vita sano.</p>
+</footer>
+</body>
+</html>
